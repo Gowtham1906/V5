@@ -1,4 +1,5 @@
 ERROR: [31m[31m╷[0m[0m
+ERROR: [31m[31m╷[0m[0m
 Fetching VPC details...
 Updating terraform.tfvars...
 Importing resources...
@@ -16,42 +17,4 @@ Importing VPC vpc-0ac3883de5bde45b6...
 
 Executing: terraform import module.vpc_resources.aws_vpc.imported_vpc["vpc-0ac3883de5bde45b6"] vpc-0ac3883de5bde45b6
 [0m[1mmodule.vpc_resources.aws_vpc.imported_vpc["vpc-0ac3883de5bde45b6"]: Importing from ID "vpc-0ac3883de5bde45b6"...[0m
-Importing Subnet subnet-05716b00f5ce2ae37...
-
-Executing: terraform import module.vpc_resources.aws_subnet.imported_subnet["subnet-05716b00f5ce2ae37"] subnet-05716b00f5ce2ae37
-[0m[1mmodule.vpc_resources.aws_subnet.imported_subnet["subnet-05716b00f5ce2ae37"]: Importing from ID "subnet-05716b00f5ce2ae37"...[0m
-Importing Subnet subnet-037ca5150d86bfa9c...
-
-Executing: terraform import module.vpc_resources.aws_subnet.imported_subnet["subnet-037ca5150d86bfa9c"] subnet-037ca5150d86bfa9c
-[0m[1mmodule.vpc_resources.aws_subnet.imported_subnet["subnet-037ca5150d86bfa9c"]: Importing from ID "subnet-037ca5150d86bfa9c"...[0m
-Importing Subnet subnet-0d3170b8337358f5c...
-
-Executing: terraform import module.vpc_resources.aws_subnet.imported_subnet["subnet-0d3170b8337358f5c"] subnet-0d3170b8337358f5c
-[0m[1mmodule.vpc_resources.aws_subnet.imported_subnet["subnet-0d3170b8337358f5c"]: Importing from ID "subnet-0d3170b8337358f5c"...[0m
-Importing Subnet subnet-0b8c870cd8cf2b6e8...
-
-Executing: terraform import module.vpc_resources.aws_subnet.imported_subnet["subnet-0b8c870cd8cf2b6e8"] subnet-0b8c870cd8cf2b6e8
-[0m[1mmodule.vpc_resources.aws_subnet.imported_subnet["subnet-0b8c870cd8cf2b6e8"]: Importing from ID "subnet-0b8c870cd8cf2b6e8"...[0m
-Importing Subnet subnet-025fcd0dc02a182c1...
-
-Executing: terraform import module.vpc_resources.aws_subnet.imported_subnet["subnet-025fcd0dc02a182c1"] subnet-025fcd0dc02a182c1
-[0m[1mmodule.vpc_resources.aws_subnet.imported_subnet["subnet-025fcd0dc02a182c1"]: Importing from ID "subnet-025fcd0dc02a182c1"...[0m
-Importing Subnet subnet-01a1b0471903cf7ca...
-
-Executing: terraform import module.vpc_resources.aws_subnet.imported_subnet["subnet-01a1b0471903cf7ca"] subnet-01a1b0471903cf7ca
-[0m[1mmodule.vpc_resources.aws_subnet.imported_subnet["subnet-01a1b0471903cf7ca"]: Importing from ID "subnet-01a1b0471903cf7ca"...[0m
-
-Importing Internet Gateway igw-0759257f25ef27e69...
-
-Executing: terraform import module.vpc_resources.aws_internet_gateway.imported_igw["igw-0759257f25ef27e69"] igw-0759257f25ef27e69
-[0m[1mmodule.vpc_resources.aws_internet_gateway.imported_igw["igw-0759257f25ef27e69"]: Importing from ID "igw-0759257f25ef27e69"...[0m
-
-Importing Security Group sg-0a2929bc0cc568a1f...
-
-Executing: terraform import module.vpc_resources.aws_security_group.imported_sg["sg-0a2929bc0cc568a1f"] sg-0a2929bc0cc568a1f
-[0m[1mmodule.vpc_resources.aws_security_group.imported_sg["sg-0a2929bc0cc568a1f"]: Importing from ID "sg-0a2929bc0cc568a1f"...[0m
-
-Importing Route Table rtb-0cf454d4d34bae4bb...
-
-Executing: terraform import module.vpc_resources.aws_route_table.imported_rt["rtb-0cf454d4d34bae4bb"] rtb-0cf454d4d34bae4bb
-[0m[1mmodule.vpc_resources.aws_route_table.imported_rt["rtb-0cf454d4d34bae4bb"]: Importing from ID "rtb-0cf454d4d34bae4bb"...[0m
+Warning: Failed to import VPC vpc-0ac3883de5bde45b6
